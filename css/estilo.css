@@ -4,12 +4,15 @@
     margin: 0;
 }
 
+html{
+    background-color: #000200;
+}
 header{
     display: flex;
     flex-wrap: wrap;
 }
 
-#arriba{
+/* #arriba{
     display: flex;
     width: 100%;
     align-items: center;
@@ -34,7 +37,7 @@ nav{
 nav>a{
     text-decoration: none;
     color: #202020;
-}
+} */
 
 #banner {
     /* height: 60vh; */
