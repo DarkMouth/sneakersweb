@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#arriba{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-evenly;
+}
+
+#flash, #sale, #punto{
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+}
+#flash, #punto{
+    color: #aa946e; 
+}
+
+nav{
+    display: flex;
+    column-gap: 25px;
+
+}
+
+nav>a{
+    text-decoration: none;
+    color: #202020;
+}
+
+#banner {
+    /* height: 60vh; */
+    width: 100%;
+}
+
+video{
+    display: flex ;
+    /* height: 85%; */
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+
+}
+
+#medio{
+    
+    background-image:url('medio.jpg');
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 64%;
+}
